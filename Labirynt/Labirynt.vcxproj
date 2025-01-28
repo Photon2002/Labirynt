@@ -148,6 +148,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Labirynt.cpp" />
+    <ClCompile Include="Mapa.cpp" />
+    <ClCompile Include="MapaZawartosc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mapa.h" />
+    <ClInclude Include="MapaZawartosc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
