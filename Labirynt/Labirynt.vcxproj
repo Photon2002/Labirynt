@@ -89,10 +89,8 @@
     </LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>
-    </IncludePath>
-    <LibraryPath>
-    </LibraryPath>
+    <IncludePath>$(IncludePath)&lt;/IncludePath&gt;</IncludePath>
+    <LibraryPath>$(LibraryPath)&lt;/LibraryPath&gt;</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
